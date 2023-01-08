@@ -10,7 +10,7 @@ resource "google_cloud_run_service" "mywebapp" {
   template {
     spec {
       containers {
-        image = "gcr.io/rare-highway-373710/webapp"
+        image = "gcr.io/rare-highway-373710/demo-api"
       }
     }
   }
